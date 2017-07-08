@@ -1,0 +1,12 @@
+class HomeController < ApplicationController
+  def index
+    
+  end
+  
+  def result
+    # parameters = "title" => "1번글"  "content" => "내용이"
+    @title_output = params[:title]
+    @content_output = params[:content]
+  end
+
+end
